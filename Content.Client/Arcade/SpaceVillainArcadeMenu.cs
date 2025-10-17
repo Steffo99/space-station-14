@@ -20,7 +20,7 @@ namespace Content.Client.Arcade
 
         public SpaceVillainArcadeMenu()
         {
-            MinSize = SetSize = new Vector2(300, 225);
+            MinSize = new Vector2(300, 225);
             Title = Loc.GetString("spacevillain-menu-title");
 
             var grid = new GridContainer { Columns = 1 };
