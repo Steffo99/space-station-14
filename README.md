@@ -1,5 +1,5 @@
 <div align="center">
-<img alt="" src="https://forge.steffo.eu/steffo/space-station-14/raw/branch/main/.media/icon-512.png" height="128" style="border-radius: 100%;">
+<img alt="" src="https://forge.steffo.eu/steffo/space-station-14/raw/branch/master/.media/icon-512.png" height="128" style="border-radius: 100%;">
 <hgroup>
 <h1>Space Station 14</h1>
 <p>A multiplayer game about paranoia and chaos on a space station</p>
