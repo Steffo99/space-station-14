@@ -54,6 +54,9 @@ public sealed partial class FaxBoundUi : BoundUserInterface
         string? label = null;
         var content = await reader.ReadToEndAsync();
 
+        firstLine = firstLine?.Replace("\r\n", "\n");
+        content = content.Replace("\r\n", "\n");
+
         if (firstLine is { })
         {
             if (firstLine.StartsWith('#'))
